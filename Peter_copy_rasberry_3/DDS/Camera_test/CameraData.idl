@@ -1,0 +1,6 @@
+struct ImageData {
+    unsigned long width;
+    unsigned long height;
+    sequence<octet> data;
+};
+

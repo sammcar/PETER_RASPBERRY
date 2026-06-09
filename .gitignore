@@ -1,0 +1,16 @@
+build/
+install/
+log/
+.vscode/
+ros2_ws/core.*
+# Resultados de experimentos exportados — no versionar datos brutos
+ros2_ws/src/peter_robot/docs/resultados/*
+!ros2_ws/src/peter_robot/docs/resultados/.gitkeep
+
+# Archivos de herramientas locales — nunca versionar
+**/.clangd
+**/compile_commands.json
+**/.python-version
+**/__pycache__/
+**/*.pyc
+**/*.pyo
