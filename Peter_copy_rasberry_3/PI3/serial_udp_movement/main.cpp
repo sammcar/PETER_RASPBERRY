@@ -7,7 +7,6 @@
 #include <termios.h>
 
 #define PORT 8003
-#define SERVER_IP "11.11.41.9"
 #define SERIAL_PORT "/dev/ttyACM0"
 
 int configurarSerial(const char* puerto) {
@@ -34,7 +33,9 @@ int configurarSerial(const char* puerto) {
     return serial_fd;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+    const char* SERVER_IP = (argc >= 2) ? argv[1] : "11.11.41.5";
+
     int sock;
     struct sockaddr_in server_address;
     char buffer[2];
