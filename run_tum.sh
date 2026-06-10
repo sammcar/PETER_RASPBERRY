@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 LIDAR_BIN="/home/neuro/Desktop/Peter_copy_rasberry_3/PI3/lidar_cpp_udp/build/lidar_c"
 CAM_BIN="/home/neuro/Desktop/Peter_copy_rasberry_3/PI3/camera/build/camera_cpp"
 IMU_BIN="/home/neuro/Desktop/pruebas/build/imu_ina"
